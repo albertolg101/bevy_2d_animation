@@ -15,8 +15,10 @@ struct Wizard;
 fn spawn(mut commands: Commands, asset_server: Res<AssetServer>) {
     commands.spawn(Camera2dBundle::default());
 
+    // asset pack from https://luizmelo.itch.io/evil-wizard-2
     let animation_atlas: Handle<AnimationAtlas> =
         asset_server.load("sprites/wizard/wizard.anim.ron");
+
     commands.spawn((
         Wizard,
         AnimationBundle {
