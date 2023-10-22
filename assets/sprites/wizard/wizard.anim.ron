@@ -1,0 +1,31 @@
+[
+    (
+        id: "Idle",
+        fps: 13.0,
+        tile_size: (250.0, 250.0),
+        rows: 1,
+        columns: 8,
+        texture_path: "Idle.png",
+        is_loop: true,
+        can_flip_x: true,
+    ),
+    (
+        id: "Run",
+        fps: 13.0,
+        tile_size: (250.0, 250.0),
+        rows: 1,
+        columns: 8,
+        texture_path: "Run.png",
+        is_loop: true,
+        can_flip_x: true,
+    ),
+    (
+        id: "Die",
+        fps: 13.0,
+        tile_size: (250.0, 250.0),
+        rows: 1,
+        columns: 7,
+        texture_path: "Death.png",
+        is_loop: false,
+    ),
+]
